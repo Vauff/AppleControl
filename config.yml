@@ -1,0 +1,4 @@
+# AppleControl configuration file.
+dont-ever-change-this: 1
+max-apple-amount: 5
+excessive-apple-message: '&cGod apples were taken away from your inventory because you had too many'
