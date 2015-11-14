@@ -1,4 +1,27 @@
 name: AppleControl
-main: me.tehkitti.AppleControl.Main
-version: 1.0.0
-author: TehKitti
+main: com.vauff.applecontrol.core.Main
+version: 1.0
+author: Vauff
+commands:
+    checkapples:
+        description: Tells you how many apples you can get by using /claimapples
+        usage: /checkapples
+    claimapples:
+        description: Gives you back your confiscated apples in specific intervals
+        usage: /claimapples
+    acreload:
+        description: Reloads the configuration file
+        usage: /acreload
+permissions:
+    applecontrol.checkapples:
+        description: Gives permission to the /checkapples command, tells you how many apples you can get by using /claimapples
+        default: true
+    applecontrol.claimapples:
+        description: Gives permission to the /claimapples command, gives you back your confiscated apples in specific intervals
+        default: true
+    applecontrol.reload:
+        description: Gives permission to the /acreload command, reloads the configuration file
+        default: op
+    applecontrol.skipapplecheck:
+        description: Allows you to override the apple check and never have apples taken away
+        default: op

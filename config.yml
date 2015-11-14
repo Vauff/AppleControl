@@ -1,4 +1,8 @@
-# AppleControl configuration file.
+# AppleControl configuration file
+# If you set max-apple-amount to 0, please note that the plugin function will change to remove the apple claiming system
+# apple-name exists because different people call it by different names, notch apple, god apple, golden apple etc
+# And seriously, don't change dont-ever-change-this as it will wipe your configuration
 dont-ever-change-this: 1
 max-apple-amount: 5
-excessive-apple-message: '&cGod apples were taken away from your inventory because you had too many'
+apple-name: notch
+store-creative-apples: false
